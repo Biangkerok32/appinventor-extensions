@@ -83,25 +83,25 @@ Blockly.Msg.zh.switch_language_to_chinese_cn = {
     + '</p><p><a href="/reference/other/backpack.html" target="_blank">/reference/other/backpack.html</a>';
 
 // Variable renaming.
-    Blockly.MSG_CHANGE_VALUE_TITLE = '修改数值:';
-    Blockly.MSG_NEW_VARIABLE = '新建变量...';
-    Blockly.MSG_NEW_VARIABLE_TITLE = '新建变量名称:';
-    Blockly.MSG_RENAME_VARIABLE = '变量重命名...';
-    Blockly.MSG_RENAME_VARIABLE_TITLE = '将所有 "%1" 变量重命名为:';
+    Blockly.Msg.CHANGE_VALUE_TITLE = '修改数值:';
+    Blockly.Msg.NEW_VARIABLE = '新建变量...';
+    Blockly.Msg.NEW_VARIABLE_TITLE = '新建变量名称:';
+    Blockly.Msg.RENAME_VARIABLE = '变量重命名...';
+    Blockly.Msg.RENAME_VARIABLE_TITLE = '将所有 "%1" 变量重命名为:';
 
 // Toolbox.
-    Blockly.MSG_VARIABLE_CATEGORY = '变量';
-    Blockly.MSG_PROCEDURE_CATEGORY = '过程';
+    Blockly.Msg.VARIABLE_CATEGORY = '变量';
+    Blockly.Msg.PROCEDURE_CATEGORY = '过程';
 
 // Warnings/Errors
-    Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = '该代码块不能被定义';
-    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = '请从下拉列表中选择合适项';
-    Blockly.ERROR_DUPLICATE_EVENT_HANDLER = '重复的组件事件处理器';
-    Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "组件不存在";
-    Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "该代码块未定义。删除该代码块！";
+    Blockly.Msg.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = '该代码块不能被定义';
+    Blockly.Msg.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = '请从下拉列表中选择合适项';
+    Blockly.Msg.ERROR_DUPLICATE_EVENT_HANDLER = '重复的组件事件处理器';
+    Blockly.Msg.ERROR_COMPONENT_DOES_NOT_EXIST = "组件不存在";
+    Blockly.Msg.ERROR_BLOCK_IS_NOT_DEFINED = "该代码块未定义。删除该代码块！";
 
-    Blockly.ERROR_CAN_NOT_DO_IT_CONTENT = '只有连接AI伴侣或模拟器，才能执行该代码块';
-    Blockly.ERROR_CAN_NOT_DO_IT_TITLE = '无法执行该代码块';
+    Blockly.Msg.ERROR_CAN_NOT_DO_IT_CONTENT = '只有连接AI伴侣或模拟器，才能执行该代码块';
+    Blockly.Msg.ERROR_CAN_NOT_DO_IT_TITLE = '无法执行该代码块';
 
 // Colour Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = '点击方块选取所需颜色';
@@ -434,22 +434,18 @@ Blockly.Msg.zh.switch_language_to_chinese_cn = {
     // Blockly.Msg.LANG_MATH_IS_A_BINARY_INPUT_NUM = '是否为二进制?';
     // Blockly.Msg.LANG_MATH_IS_A_BINARY_TOOLTIP = '判断该对象是否为二进制数。';
 
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TITLE_CONVERT = '进制转换';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_HEX = '10进制转16进制';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_DEC_TO_HEX = '';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_HEX = '返回一个十进制数的十六进制形式。';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TITLE_CONVERT = '进制转换';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_HEX = '10进制转16进制';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_HEX = '返回一个十进制数的十六进制形式。';
 
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_HEX_TO_DEC = '16进制转10进制';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_HEX_TO_DEC = '';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_HEX_TO_DEC = '返回一个十六进制数的十进制形式。';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_HEX_TO_DEC = '16进制转10进制';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_HEX_TO_DEC = '返回一个十六进制数的十进制形式。';
 
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_BIN = '10进制转2进制';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_DEC_TO_BIN = '';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_BIN = '返回一个十进制数的二进制形式。';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_BIN = '10进制转2进制';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_BIN = '返回一个十进制数的二进制形式。';
 
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_BIN_TO_DEC = '2进制转10进制';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_BIN_TO_DEC = '';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_BIN_TO_DEC = '返回一个二进制数的十进制形式。';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_BIN_TO_DEC = '2进制转10进制';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_BIN_TO_DEC = '返回一个二进制数的十进制形式。';
 
 // Text Blocks.
     Blockly.Msg.LANG_CATEGORY_TEXT = '文本';
@@ -478,6 +474,7 @@ Blockly.Msg.zh.switch_language_to_chinese_cn = {
 
     Blockly.Msg.LANG_TEXT_COMPARE_LT = ' <';
     Blockly.Msg.LANG_TEXT_COMPARE_EQUAL = ' =';
+    Blockly.Msg.LANG_TEXT_COMPARE_NEQ = ' ≠';
     Blockly.Msg.LANG_TEXT_COMPARE_GT = ' >';
     Blockly.Msg.LANG_TEXT_COMPARE_INPUT_COMPARE = '字符串比较';
     Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_LT = '按字典顺序比较text1是否小于text2，\n'

@@ -86,25 +86,25 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     + '</p><p><a href="/reference/other/backpack.html" target="_blank">http://ai2.appinventor.mit.edu/reference/other/backpack.html</a>';
 
 // Variable renaming.
-    Blockly.MSG_CHANGE_VALUE_TITLE = '修改數值:';
-    Blockly.MSG_NEW_VARIABLE = '新增變數...';
-    Blockly.MSG_NEW_VARIABLE_TITLE = '新增變數名稱:';
-    Blockly.MSG_RENAME_VARIABLE = '變數重新命名...';
-    Blockly.MSG_RENAME_VARIABLE_TITLE = '將所有 "%1" 變數重新命名為:';
+    Blockly.Msg.CHANGE_VALUE_TITLE = '修改數值:';
+    Blockly.Msg.NEW_VARIABLE = '新增變數...';
+    Blockly.Msg.NEW_VARIABLE_TITLE = '新增變數名稱:';
+    Blockly.Msg.RENAME_VARIABLE = '變數重新命名...';
+    Blockly.Msg.RENAME_VARIABLE_TITLE = '將所有 "%1" 變數重新命名為:';
 
 // Toolbox.
-    Blockly.MSG_VARIABLE_CATEGORY = '變數';
-    Blockly.MSG_PROCEDURE_CATEGORY = '程序';
+    Blockly.Msg.VARIABLE_CATEGORY = '變數';
+    Blockly.Msg.PROCEDURE_CATEGORY = '程序';
 
 // Warnings/Errors
-    Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = '該程式方塊無法定義';
-    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = '請從下拉式選單中選取有效項目';
-    Blockly.ERROR_DUPLICATE_EVENT_HANDLER = '已存在相同名稱的事件處理器';
-    Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "元件不存在";
-    Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "該程式方塊未定義。刪除該程式方塊！";
+    Blockly.Msg.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = '該程式方塊無法定義';
+    Blockly.Msg.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = '請從下拉式選單中選取有效項目';
+    Blockly.Msg.ERROR_DUPLICATE_EVENT_HANDLER = '已存在相同名稱的事件處理器';
+    Blockly.Msg.ERROR_COMPONENT_DOES_NOT_EXIST = "元件不存在";
+    Blockly.Msg.ERROR_BLOCK_IS_NOT_DEFINED = "該程式方塊未定義。刪除該程式方塊！";
 
-    Blockly.ERROR_CAN_NOT_DO_IT_CONTENT = '只有連接「AI Companion」或「模擬器」才能執行';
-    Blockly.ERROR_CAN_NOT_DO_IT_TITLE = '無法執行該程式方塊';
+    Blockly.Msg.ERROR_CAN_NOT_DO_IT_CONTENT = '只有連接「AI Companion」或「模擬器」才能執行';
+    Blockly.Msg.ERROR_CAN_NOT_DO_IT_TITLE = '無法執行該程式方塊';
 
 // Colour Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = '點擊方形區域來選取顏色';
@@ -437,22 +437,18 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
     // Blockly.Msg.LANG_MATH_IS_A_BINARY_INPUT_NUM = '是否為2進位?';
     // Blockly.Msg.LANG_MATH_IS_A_BINARY_TOOLTIP = '判斷該對象是否為2進位數。';
 
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TITLE_CONVERT = '進位轉換';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_HEX = '10進位轉16進位';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_DEC_TO_HEX = '';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_HEX = '回傳輸入10進位數的16進位形式。';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TITLE_CONVERT = '進位轉換';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_HEX = '10進位轉16進位';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_HEX = '回傳輸入10進位數的16進位形式。';
 
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_HEX_TO_DEC = '16進位轉10進位';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_HEX_TO_DEC = '';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_HEX_TO_DEC = '回傳輸入16進位數的10進位形式。';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_HEX_TO_DEC = '16進位轉10進位';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_HEX_TO_DEC = '回傳輸入16進位數的10進位形式。';
 
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_BIN = '10進位轉2進位';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_DEC_TO_BIN = '';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_BIN = '回傳輸入10進位數的2進位形式。';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_BIN = '10進位轉2進位';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_BIN = '回傳輸入10進位數的2進位形式。';
 
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_BIN_TO_DEC = '2進位轉10進位';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_BIN_TO_DEC = '';
-    // Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_BIN_TO_DEC = '回傳輸入2進位數的10進位形式。';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_BIN_TO_DEC = '2進位轉10進位';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_BIN_TO_DEC = '回傳輸入2進位數的10進位形式。';
 
 // Text Blocks.
     Blockly.Msg.LANG_CATEGORY_TEXT = '文字';
@@ -481,6 +477,7 @@ Blockly.Msg.zh.switch_language_to_chinese_tw = {
 
     Blockly.Msg.LANG_TEXT_COMPARE_LT = ' <';
     Blockly.Msg.LANG_TEXT_COMPARE_EQUAL = ' =';
+    Blockly.Msg.LANG_TEXT_COMPARE_NEQ = ' ≠';
     Blockly.Msg.LANG_TEXT_COMPARE_GT = ' >';
     Blockly.Msg.LANG_TEXT_COMPARE_INPUT_COMPARE = '文字比較';
     Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_LT = '判斷左邊文字的首字母順序是否低於右邊文字，\n'

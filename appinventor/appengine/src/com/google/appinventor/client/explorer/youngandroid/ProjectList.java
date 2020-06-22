@@ -68,6 +68,8 @@ public class ProjectList extends Composite implements ProjectManagerEventListene
   private SortField sortField;
   private SortOrder sortOrder;
 
+  private boolean projectListLoading = true;
+
   // UI elements
   private final Grid table;
   private final Label nameSortIndicator;
@@ -328,8 +330,7 @@ public class ProjectList extends Composite implements ProjectManagerEventListene
       if(Ode.getGallerySettings().galleryEnabled()){
         if (project.isPublished()) {
           pw.publishedLabel.setText(PUBLISHED);
-        }
-        else {
+        } else {
           pw.publishedLabel.setText(NOT_PUBLISHED);
         }
       }
@@ -373,8 +374,14 @@ public class ProjectList extends Composite implements ProjectManagerEventListene
   public void onProjectAdded(Project project) {
     projects.add(project);
     projectWidgets.put(project, new ProjectWidgets(project));
-    refreshTable(true);
+    if (!projectListLoading) {
+      refreshTable(true);
+    }
   }
+
+  @Override
+  public void onDeletedProjectAdded(Project project) {}
+
   @Override
   public void onProjectRemoved(Project project) {
     projects.remove(project);
@@ -387,8 +394,12 @@ public class ProjectList extends Composite implements ProjectManagerEventListene
   }
 
   @Override
+  public void onDeletedProjectRemoved(Project project) { }
+
+  @Override
   public void onProjectsLoaded() {
-    // This can be empty
+    projectListLoading = false;
+    refreshTable(true);
   }
   public void onProjectPublishedOrUnpublished() {
     refreshTable(false);
